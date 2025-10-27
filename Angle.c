@@ -10,7 +10,7 @@ int main(){
 radian=degree*pi/180;
 value=sin(radian)*sin(radian)+cos(radian)*cos(radian);
 
-if(value==1){
+if(value!=1){
     printf("statements satisfied");
 }
 else{
